@@ -1,0 +1,25 @@
+<hmtl>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <title>OFERTA RELAMPAGO!</title>
+        <script>
+            function pisca(){
+                var f = document.getElementById('preco_promocao');
+                setInterval(function(){
+                    f.style.visibility = (f.style.visibility == 'hidden' ? '' : 'hidden');
+                }, 150);
+            }
+        </script>
+    </head>
+    <body onload="pisca();" class="oferta">
+        <div class="promocao">
+            <img src="macoff.jpg" class="img_promocao">
+            <p class="txt_promocao">
+                SEXTA-FEIRA MALUCA !!!<br>
+                Mac Pro por apenas:
+            </p>
+            <p class="preco_promocao" id="preco_promocao">R$ 90.000,00</p>
+        </div>
+        </body>
+</hmtl>
+    

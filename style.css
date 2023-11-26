@@ -1,0 +1,208 @@
+/*Configurando fonte; tamanho e margem do corpo da página*/
+body{
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*Estlizando a faixa do cabeçalho*/
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+/*Estilizando o menu, com a posição e distâncias*/
+nav{
+    position: absolute;
+    right: 0;
+    top: -10px;
+}
+/*Estilizando como será disposto o menu*/
+nav li{
+    display: inline;
+    margin: 0 0 0 10px;
+}
+/*Ajustando a cor da fonte, tipo de 'caixa', se está em negríto e o tamanho da fonte*/
+nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: bold;
+    font-size: smaller;
+    transition: 0.6s;
+}
+/*Estilizando a interação com o menu*/
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.logo_caixa{
+    position: relative;
+    width: 940px;
+    margin: auto;
+}
+/*Ajustar tamanho e margem da logo*/
+.logo{
+    width: 2%;
+    margin: 0 0 0 280px;
+}
+.banner{
+    width: 100%;
+}
+.image_banner{
+    width: 100%;
+}
+/*Sobre a Apple*/
+.apple{
+    width: 50px;
+    float: left;
+    margin: 0 20px;
+}
+.titulo_apple{
+    text-align: center;
+    clear: left;
+    font-size: 1,5em;
+    margin: 0%;
+    padding-top: 10px;
+}
+.sobre-apple{
+    background-color: white;
+    width: 40%;
+    margin: auto;
+}
+.titulo-padrao{
+    text-align: center;
+    font-size: 30;
+    margin: 0;
+}
+/*Estilização da sessão Nossa loja*/
+.mapa{
+    text-align: center;
+    background: linear-gradient(white, grey);
+}
+.beneficios{
+    background-color: grey;
+    text-align: center;
+}
+.lista-beneficios{
+    width: 50%;
+    display: inline-block;
+}
+
+.lista-beneficios li:first-child{
+    font-weight: bold;
+}
+.img_beneficios{
+    margin: 10;
+    text-align: center;
+    justify-content: left;  
+    width: 300;
+    box-shadow: 10px 10px 5px 0 black;
+    opacity: 1;
+    transition: 400ms;
+}
+.img_beneficios:hover{
+    opacity: 0.7;
+}
+.lista-beneficios{
+    width: 100%;
+}
+form{
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+fieldset{
+    width: 75%;
+    padding-left: 5%;
+    margin-bottom: 2%;
+}
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 85%;
+}
+.chk{
+    text-align: center;
+    margin: 20px 0;
+}
+.contato_enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.contato_enviar:hover{
+    background: darkorange;
+    transform: scale(1.04)
+}
+footer{
+    text-align: center;
+    margin: 0 auto;
+    background: url("ground.jpg");
+    padding: 40px 0 30px 0;
+}
+.copyright{
+    color: white;
+    font-size: 12px;
+    margin: 20px;
+}
+.logo_footer{
+    width: 5%;
+}
+.contato_texto{
+    text-align: center;
+    padding: auto;
+}
+.chk{
+    text-align: center;
+    padding: auto;
+}
+.promocao{
+    background-color: black;
+}
+.img_promocao{
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+}
+.txt_promocao{
+    margin: 0;
+    text-align: center;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;    
+}
+.preco_promocao{
+    margin: 50;
+    text-align: center; /* Center the text horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: red;
+    font-size: 40;
+}
+.oferta{
+    background-color: black;
+}
+.novidades{
+    text-align: right;
+    margin: 0;
+}
+.img_new{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+}

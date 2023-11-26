@@ -1,0 +1,62 @@
+<hmtl>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <link href="icon.ico" rel="shortcut icon">
+        <title>Apple</title>
+        <script>    
+        var win = null;
+        function PopPromocao(){
+            var pagina = "oferta.html";
+            var left = (window.innerWidth - 400) / 2;
+            var top = (window.innerHeight - 400) / 4;
+            var settings = 'toolbar=no, location=no, directories=no, status=no, menubar=no, width=400, height=400, left=' + left + ', top=' + top + ', scrollbars=no, resizable=yes, copyhistory=yes';
+            win = window.open(pagina, "OFERTA RELAMPAGO!", settings);
+        }
+        function Slider(){
+            var pagina="slider.html"
+            var left = (window.innerWidth-820)/2;
+            var top = (window.innerHeight-680)/2;
+            var settings = 'toolbar=no, location=no, directories=no, status=no, menubar=no, width=820, height=680, left=' + left + ', top=' + top + ', scrollbars=no, resizable=no, copyhistory=yes';
+            win = window.open(pagina, "NOVIDADE", settings);
+        }
+    </script>
+</head>
+<body onload="PopPromocao()">
+        <header>
+            <div class="logo_caixa">
+                <!--Logo que ir� ficar na aba de navega��o web-->
+                <img src="logo.png" title="Apple" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Loja</a></li>
+                        <li><a href="mac.html">Mac</a></li>
+                        <li><a href="http://www.google.com.br">Ipad</a></li>
+                        <li><a href="http://www.google.com.br">Iphone</a></li>
+                        <li><a href="http://www.google.com.br">Watch</a></li>
+                        <li><a href="http://www.google.com.br">AirPods</a></li>
+                        <li><a href="http://www.google.com.br">TV e Casa</a></li>
+                        <li><a href="http://www.google.com.br">Entretenimento</a></li>
+                        <li><a href="http://www.google.com.br">Acessórios</a></li>
+                        <li><a href="suporte.html">Suporte</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <banner>
+            <div class="banner">
+                <img src="maci.png" class="image_banner">
+            </div>
+        </banner>
+        <main>
+            <section class="novidades">
+                <div>
+                    <a href="JavaScript:Slider()"><img src="offer.jpg" class="novo_mac"></a>
+                </div>
+            </section>
+        </main>        
+        <footer>
+            <img src="Assets/logo.png" alt="Sua Apple" class="logo_footer">
+            <p class="copyright">&copy; Diretos da empresa</p>
+        </footer>
+    </body>
+</hmtl> 
